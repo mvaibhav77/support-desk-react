@@ -10,7 +10,7 @@ import { useEffect } from 'react'
 // import NoteItem from '../components/NoteItem'
 
 function Ticket() {
-  const {ticket, isLoading, isSuccess, isError, message} = useSelector(state=> state.ticket)
+  const {ticket, isLoading, isError} = useSelector(state=> state.ticket)
   // const {notes, isLoading: notesIsLoading} = useSelector(state=> state.notes)
 
   const dispatch = useDispatch()
@@ -65,7 +65,7 @@ function Ticket() {
       )} */}
 
       {ticket.status !=='closed' && (
-        <button className="btn btn-block btn-danger" on onClick={onTicketClose}>Close Ticket</button>
+        <button className="btn btn-block btn-danger" onClick={onTicketClose}>Close Ticket</button>
       )}
     </div>
   )

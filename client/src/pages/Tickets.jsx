@@ -22,8 +22,6 @@ function Tickets() {
         toast.error(message)
       }
 
-    console.log(tickets)
-
     }
   },[isSuccess, dispatch,isError, message, tickets])
 
