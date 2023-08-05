@@ -6,7 +6,7 @@ const noteSchema = mongoose.Schema({
     required: true,
     ref: 'User',
   },
-  user: {
+  ticket: {
     type: mongoose.Schema.Types.ObjectId,
     required: true,
     ref: 'Ticket',
@@ -21,7 +21,6 @@ const noteSchema = mongoose.Schema({
   },  
   staffId: {
     type: String,
-    required: [true, 'Please enter staff ID']
   },
 }, {
   timestamps : true
