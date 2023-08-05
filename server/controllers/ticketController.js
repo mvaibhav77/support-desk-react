@@ -2,9 +2,6 @@ const asyncHandler = require('express-async-handler')
 const User = require('../models/userModel')
 const Tickets = require('../models/ticketModel')
 
-// const User = require('../models/userModel')
-// const Tickets = require('../models/ticketModel')
-
 // @desc Get iser tickets
 // @route GET /api/tickets
 // @access Private
