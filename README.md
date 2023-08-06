@@ -62,18 +62,21 @@ npm install
    - Fill in the required environment variables in the `.env` files.
   ```bash
   JWT_SECRET = something
-  MONGO_URI
+  MONGO_URI = mongo db cluster connection link
   ```
     
 
-5. Start the development server:
+5. Start the development server(from root directory):
 
 ```bash
-# Start the server (from the server directory)
-npm run start
+# Start development application
+npm run dev
 
-# Start the client (from the client directory)
-npm run start
+# Start the server only
+npm run server
+
+# Start the client only
+npm run client
 ```
 
 The app will be available at [http://localhost:3000](http://localhost:3000) in your browser.
@@ -88,11 +91,10 @@ The app will be available at [http://localhost:3000](http://localhost:3000) in y
 
 ## Technologies Used
 
-- MongoDB
-- Express.js
-- React
-- Node.js
-- Socket.IO (for real-time updates)
+- (M)ongoDB
+- (E)xpress.js
+- (R)eact
+- (N)ode.js
 - ... (add any other technologies or libraries you have used)
 
 ## Contributing
