@@ -95,7 +95,6 @@ The app will be available at [http://localhost:3000](http://localhost:3000) in y
 - (E)xpress.js
 - (R)eact
 - (N)ode.js
-- ... (add any other technologies or libraries you have used)
 
 ## Contributing
 
